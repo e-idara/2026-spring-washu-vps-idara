@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <title>El Comal</title>
+    <style>
+         h2 {
+        color: darkgreen;
+        font-style: italic;
+        font-family: "Courier";
+        text-align: center;
+        }
+        h3 {
+        font-family: "Courier";
+        text-align: center;
+        }
+        body{
+        color: darkslategrey;
+        font-family: "Courier";
+        padding-bottom: 80px;
+        }
+        table, th, td {
+        border: none; 
+        border-collapse: collapse;
+        padding: 8px;
+        }
+        table {
+        margin-left: auto;
+        margin-right: auto;
+        }
+        .boxed-text {
+        border: 2px solid red; /* Sets the border style, width, and color */
+        padding: 10px;           /* Adds space between the text and the border */
+        display: inline-block;   /* Allows the box to wrap tightly around the text */
+    }
+    .boxed-text:hover, .boxed-text:active{
+    transform: scale(1.05);
+    z-index:3;
+  }
+        .info-box {
+        border: 5px solid goldenrod;     
+        padding: 15px;               /* Inner spacing */
+        margin: 20px 0;              /* Outer spacing (top/bottom) */        /* Optional: adds rounded corners; border-radius: 8px; */
+        text-align: center;
+        font-family: "Courier";
+        font-size: 180%
+        }
+        .kids{
+        border: 5px dashed red;     
+        padding: 15px;               /* Inner spacing */
+        margin: 20px 0;              /* Outer spacing (top/bottom) */       
+        /* Optional: adds rounded corners; border-radius: 8px; */
+        font-family: "Courier";
+  }
+  a {
+            color: brown;
+        }
+    </style>
+<body style="background-color:#FFF5C9">
+    <h1>El Comal</h1>
+   
+  <img src="el comal.png" width="100%">
+
+   <section>
+    <a href="16css.html"> <div class="boxed-text">Volver a la página de inicio</div></a>
+   
+
+    <div class="info-box"><b>MENÚ INFANTIL</b></div>
+
+    <div>
+    <table class="kids" style = "width: 100%";>
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Chicken nuggets y papas</td>
+            <td style="text-align: right";>$5.99</td>
+    
+            </tr>
+            <tr>
+                <td>Quesadilla de pollo</td>
+                <td style="text-align: right";>$5.99</td>
+
+            </tr>
+            <tr>
+                <td>Burrito De Carne Molida con queso</td>
+                <td style="text-align: right";>$6.99</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+
+
+   
+
+
+
+    
+</body>
+</html>

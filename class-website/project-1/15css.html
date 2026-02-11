@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Comal</title>
+
+    <style>
+     h2 {
+        color: darkgreen;
+        font-style: italic;
+        font-family: "Courier";
+        text-align: center;
+        }
+    h3 {
+        font-family: "Courier";
+        text-align: center;
+        }
+    body{
+        color: darkslategrey;
+        font-family: "Courier";
+        padding-bottom: 80px;
+        }
+    table, th, td {
+        border: none; 
+        border-collapse: collapse;
+        padding: 8px;
+        }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        }
+    .boxed-text {
+        border: 2px solid red; /* Sets the border style, width, and color */
+        padding: 10px;           /* Adds space between the text and the border */
+        display: inline-block;   /* Allows the box to wrap tightly around the text */
+    }
+    .boxed-text:hover, .boxed-text:active{
+    transform: scale(1.05);
+    z-index:3;
+  }
+    .info-box {
+        border: 5px solid goldenrod;     
+        padding: 15px;               /* Inner spacing */
+        margin: 20px 0;              /* Outer spacing (top/bottom) */        /* Optional: adds rounded corners; border-radius: 8px; */
+        text-align: center;
+        font-family: "Courier";
+        font-size: 180%
+        }
+    .house{
+    border: 5px solid red;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */       
+     /* Optional: adds rounded corners; border-radius: 8px; */
+    font-family: "Courier";
+    }
+    .specials{
+    border: 5px solid blue;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */       
+     /* Optional: adds rounded corners; border-radius: 8px; */
+    font-family: "Courier";
+    }
+    a {
+            color: brown;
+        }
+        
+    </style>
+    
+</head>
+<body style="background-color:#FFF5C9">
+    <h1>El Comal</h1>
+   
+  <img src="el comal.png" width="100%">
+
+   <section>
+   
+    <a href="16css.html"> <div class="boxed-text">Volver a la página de inicio</div></a>
+
+    <div class="info-box"><b>ESPECIALES DE NUESTRA CASA/HONDURAS</b></div>
+
+    <div>
+     <h3>Especiales Honduras</h3>
+    <table class="specials" style = "width: 100%";>
+
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Pollo Con Tajadas</td>
+            <td style="text-align: right";>$14.99</td>
+            </tr>
+            <tr>
+                <td>Pastelitos</td>
+                <td style="text-align: right";>$11.99</td>
+
+            </tr>
+            <tr>
+                <td>Tilapia Con Tajadas</td>
+                <td style="text-align: right";>$15.99</td>
+            </tr>
+            <tr>
+                <td>Carne Asada C/Tajadas</td>
+                <td style="text-align: right";>$15.99</td>
+            </tr>
+            <tr>
+                <td>Tacos Hondurenos</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+            <tr>
+                <td>Tajadas C/Carne Molida</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+            <tr>
+                <td>Chuleta De Puerco</td>
+                <td style="text-align: right";>$15.99</td>
+            </tr>
+            <tr>
+                <td>Baleadas Especiales</td>
+                <td style="text-align: right";>$4.99</td>
+            </tr>
+            <tr>
+                <td>Baleasdas Especiales</td>
+                <td style="text-align: right";>$6.99</td>
+            </tr>
+            <tr>
+                <td>Baleadas Con Carne</td>
+                <td style="text-align: right";>$8.99</td>
+            </tr>
+            <tr>
+                <td>Pupusas</td>
+                <td style="text-align: right";>$3.99</td>
+            </tr>
+            <tr>
+                <td>Platanos Hundureños</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+
+    <div>
+     <h3>Especiales de la casa</h3>
+    <table class="specials" style = "width: 100%";>
+
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Quesabirrías</td>
+            <td style="text-align: right";>$13.99</td>
+            </tr>
+            <tr>
+                <td>Tacos Norteños</td>
+                <td style="text-align: right";>$11.99</td>
+
+            </tr>
+            <tr>
+                <td>Huevos Con Chorizo</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+            <tr>
+                <td>Chilaquiles</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+            <tr>
+                <td>Plate de Birria</td>
+                <td style="text-align: right";>$13.99</td>
+            </tr>
+            <tr>
+                <td>Tortas 
+                    <details>
+                        <summary>Proteína</summary>
+                       <ul>
+                        <li>Asada</li>
+                        <li>Pollo</li>
+                        <li>Al Pastor</li>
+                        <li>Chorizo</li>
+                        <li>Quesillo Roaster Pork Carnitas</li>
+                    </ul>  
+                    </details>
+                </td>
+                <td style="text-align: right";>$11.99</td>
+            </tr>
+            <tr>
+                <td>Torta Birria</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+            <tr>
+                <td>Sopes
+                    <details>
+                        <summary>Proteína</summary>
+                       <ul>
+                        <li>Asada</li>
+                        <li>Pollo</li>
+                        <li>Al Pastor</li>
+                        <li>Chorizo</li>
+                        <li>Carnitas</li>
+                    </ul>  
+                    </details>
+                </td>
+                <td style="text-align: right";>$4.99</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+   </section>
+  
+   
+   
+</body>
+</html>

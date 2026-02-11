@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2 {
+        color: darkgreen;
+        font-style: italic;
+        font-family: "Courier";
+        text-align: center;
+        }
+    h3 {
+        font-family: "Courier";
+        text-align: center;
+        }
+    body{
+        color: darkslategrey;
+        font-family: "Courier";
+        padding-bottom: 80px;
+        }
+    table, th, td {
+        border: none; 
+        border-collapse: collapse;
+        padding: 8px;
+        }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        }
+    .boxed-text {
+        border: 2px solid red; /* Sets the border style, width, and color */
+        padding: 10px;           /* Adds space between the text and the border */
+        display: inline-block;   /* Allows the box to wrap tightly around the text */
+    }
+    .boxed-text:hover, .boxed-text:active{
+    transform: scale(1.05);
+    z-index:3;
+  }
+    .info-box {
+        border: 5px solid goldenrod;     
+        padding: 15px;               /* Inner spacing */
+        margin: 20px 0;              /* Outer spacing (top/bottom) */        /* Optional: adds rounded corners; border-radius: 8px; */
+        text-align: center;
+        font-family: "Courier";
+        font-size: 180%
+        }
+        .ranchero{
+     border: 5px dashed green;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */       
+     /* Optional: adds rounded corners; border-radius: 8px; */
+    font-family: "Courier";
+
+  }
+  .fajitas{
+    border: 5px solid blue;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */       
+     /* Optional: adds rounded corners; border-radius: 8px; */
+    font-family: "Courier";
+
+  }
+  .seafood{
+    border: 5px dashed blue;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */       
+     /* Optional: adds rounded corners; border-radius: 8px; */
+    font-family: "Courier";
+
+  }
+  .steaks{
+    border: 5px solid red;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */       
+     /* Optional: adds rounded corners; border-radius: 8px; */
+    font-family: "Courier";
+
+  }
+  .poultry{
+    border: 5px dashed green;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */       
+     /* Optional: adds rounded corners; border-radius: 8px; */
+    font-family: "Courier";
+
+  }
+  .tacos{
+    border: 5px solid #301934;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */       
+     /* Optional: adds rounded corners; border-radius: 8px; */
+    font-family: "Courier";
+
+  }
+  a {
+            color: brown;
+        }
+</style>
+<body style="background-color:#FFF5C9">
+
+ <h1>El Comal</h1>
+   
+  <img src="el comal.png" width="100%">
+
+   <section>
+    <a href="16css.html"><div class="boxed-text">Volver a la página de inicio</div></a>
+    
+
+    <div class="info-box"><b>NUESTRAS PLATOS PRINCIPALES</b></div>
+
+    <div>
+<h3 >Ranchero</h3>
+    <table class=ranchero style = "width: 100%";>
+       
+    </style>
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td >Ranchero</td>
+            <td style="text-align: right";>$13.99</td>
+            
+            </tr>
+            <tr>
+                <td>Ranchero Jalisco</td>
+                <td style="text-align: right";>$14.99</td>
+
+            </tr>
+            <tr>
+                <td>Camarón Ranchero</td>
+                <td style="text-align: right";>$14.99</td>
+            </tr>
+            <tr>
+                <td>Ranchero Vegetarian</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+
+   <div>
+    <h3>Fajitas</h3>
+     <table class="fajitas" style = "width: 100%";>
+    
+        <caption><i>Incluye arroz, frijoles, ensalada de guacamole, tortillas y verduras</i></caption>
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Pollo Fajitas</td>
+            <td style="text-align: right";>$14.99</td>
+            
+            </tr>
+            <tr>
+                <td>Bistec Fajitas</td>
+                <td style="text-align: right";>$14.99</td>
+
+            </tr>
+            <tr>
+                <td>Mixta Fajitas</td>
+                <td style="text-align: right";>$16.99</td>
+            </tr>
+            <tr>
+                <td>Camarón Fajitas</td>
+                <td style="text-align: right";>$16.99</td>
+            </tr>
+            <tr>
+                <td>Vegetales</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+            <tr>
+                <td>Fajita de Lujo</td>
+                <td style="text-align: right";>$17.99</td>
+            </tr>
+            <tr>
+                <td>Fajita Toluca</td>
+                <td style="text-align: right";>$15.99</td>
+            </tr>
+            <tr>
+                <td>Fajita Honduras</td>
+                <td style="text-align: right";>$15.99</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+   <div>
+     <h3>Mariscos</h3>
+     <table class="seafood" style = "width: 100%";>
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>3 Tacos de Pescado</td>
+            <td style="text-align: right";>$12.99</td>
+            
+            </tr>
+            <tr>
+                <td>Camarones a la Diabla</td>
+                <td style="text-align: right";>$14.99</td>
+
+            </tr>
+            <tr>
+                <td>Filete de Mojarra</td>
+                <td style="text-align: right";>$14.99</td>
+            </tr>
+            <tr>
+                <td>Camarones Al Ajillo</td>
+                <td style="text-align: right";>$14.99</td>
+            </tr>
+            <tr>
+                <td>Coctel De Camarones</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+   <h3>Bistecs</h3>
+    <table class="steaks" style = "width: 100%";>
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Bistec a la Mexicana</td>
+            <td style="text-align: right";>$13.99</td>
+            
+            </tr>
+            <tr>
+                <td>Carne Asada</td>
+                <td style="text-align: right";>$14.99</td>
+
+            </tr>
+            <tr>
+                <td>Bistec y Camarones</td>
+                <td style="text-align: right";>$14.99</td>
+            </tr>
+            <tr>
+                <td>Carnitas Tiernas</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+            <tr>
+                <td>Bistec Ranchero</td>
+                <td style="text-align: right";>$</td>
+            </tr>
+            <tr>
+                <td>Chile Verde</td>
+            </tr>
+            <tr>
+                <td>Chile Relleno</td>
+            </tr>
+        </tbody>
+    </table>
+ 
+   <div>
+    <h3>Aves de Corral</h3>
+    <table class="poultry" style = "width: 100%";>
+   
+        
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Pollo a la Plancha</td>
+            <td style="text-align: right";>$13.99</td>
+            
+            </tr>
+            <tr>
+                <td>Tamales de Pollo</td>
+                <td style="text-align: right";>$14.99</td>
+
+            </tr>
+            <tr>
+                <td>Flautas de Pollo</td>
+                <td style="text-align: right";>$14.99</td>
+            </tr>
+        </tbody>
+    </table>
+
+   </div>
+
+   <div>
+    <h3>Tacos y Más</h3>
+    <table class="tacos" style = "width: 100%";>
+       
+        <thead>
+            <tr>
+                <th style="text-align:left">Artículo</th>
+                <th style="text-align:right">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Tacos</td>
+            <td style="text-align: right";>$3.25 cada uno</td>
+            
+            </tr>
+            <tr>
+                <td>Camarones o pescado Tacos</td>
+                <td style="text-align: right";>$3.99 cada uno</td>
+
+            </tr>
+            <tr>
+                <td>Quesadilla</td>
+                <td style="text-align: right";>$10.99</td>
+            </tr>
+            <tr>
+                <td>Chimichanga</td>
+                <td style="text-align: right";>$11.99</td>
+            </tr>
+            <tr>
+                <td>Burritos el Comal</td>
+                <td style="text-align: right";>$11.99</td>
+            </tr>
+            <tr>
+                <td>Burritos Fajita</td>
+                <td style="text-align: right";>$12.99</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+</body>
+</html>
