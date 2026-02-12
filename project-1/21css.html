@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Comal Menu!</title>
+    <link rel="icon" type="image/x-icon" href="cactusfavicon.png">
+</head>
+
+<style>
+    .info-box {
+    border: 5px solid goldenrod;     
+    padding: 15px;               /* Inner spacing */
+    margin: 20px 0;              /* Outer spacing (top/bottom) */        /* Optional: adds rounded corners; border-radius: 8px; */
+    text-align: center;
+    font-family: "Courier";
+    font-size: 180%
+    }
+    .info-box:hover, .info-box:active{
+    transform: scale(1.02);
+    z-index:3;
+  }
+    .locationgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .cell {
+        border: 5px dashed goldenrod;
+        padding: 10px;
+    }
+    .cell:hover, .cell:active{
+       transform: scale(1.05);
+    z-index:3;
+    }
+    .iframe {
+        width: 50;
+        height: 50px;
+        border: 0;
+    }
+    .hours {
+    border: 5px dashed goldenrod;
+    padding: 15px;
+     margin: 20px 0;
+    }
+    body{
+    color: darkslategrey;
+    font-family: "Courier";
+    padding-bottom: 20px;
+     }
+    table, th, td {
+    border: none; 
+    border-collapse: collapse;
+    padding: 8px;
+    }
+    table {
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    a {
+        color: brown
+    }
+    .types{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .appetizers {
+         border: 5px dashed green;
+        padding: 10px;
+    }
+    .appetizers:hover, .appetizers:active{
+        transform: scale(1.05);
+     z-index:3;
+    }
+    .housespecials {
+         border: 5px solid red;
+        padding: 10px;
+    }
+    .housespecials:hover, .housespecials:active{
+        transform: scale(1.05);
+     z-index:3;
+    }
+    .ranchero {
+         border: 5px dashed green;
+        padding: 10px;
+    }
+    .ranchero:hover, .ranchero:active{
+        transform: scale(1.05);
+     z-index:3;
+    }
+    .fajitas{
+         border: 5px solid blue;
+        padding: 10px;
+
+    }
+    .seafood{
+         border: 5px dashed blue;
+        padding: 10px;
+
+    }
+    .poultry {
+         border: 5px solid green;
+        padding: 10px;
+
+    }
+    .tacos {
+         border: 5px dashed #301934;
+        padding: 10px;
+
+    }
+    .steaks {
+       border: 5px solid red;
+        padding: 10px;
+
+    }
+    .sides {
+       border: 5px solid red;
+        padding: 10px;
+
+    }
+    .sides:hover, .sides:active{
+        transform: scale(1.05);
+     z-index:3;
+    }
+    .specials {
+        border: 5px solid blue;
+        padding: 10px;
+
+    }
+    .drinks {
+        border: 5px dashed green;
+        padding: 10px;
+
+    }
+    .drinks:hover, .drinks:active{
+        transform: scale(1.05);
+     z-index:3;
+    }
+    .kidsmenu {
+         border: 5px solid red;
+        padding: 10px;
+    }
+    .kidsmenu:hover, .kidsmenu:active{
+        transform: scale(1.05);
+     z-index:3;
+    }
+</style>
+<body style="background-color:#FFF5C9">
+    
+
+    <img src="logoelcomal.png" width="100%">
+   <div class="info-box"><b>BIENVENIDOS A EL COMAL!🎊</b></div>
+   <img src="el comal.png" width="100%">
+
+   <div>
+    <audio autoplay>
+    <source src="corazon.mp3" type="audio/mpeg">
+   </audio>
+   </div>
+   
+
+
+   <section class="locationgrid">
+    <div class="cell">
+        <h2 style="text-align: center"><a href="https://www.yelp.com/biz/el-comal-saint-louis">Ubicación</a></h2>
+        <iframe float: left src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.410524361309!2d-90.3468573!3d38.70838279999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df34458eb3ed35%3A0x71baf1b4f34393fe!2sEl%20Comal!5e0!3m2!1sen!2sus!4v1770058881101!5m2!1sen!2sus" 
+        width="500" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="cell">
+        <div >
+     <table width="100%">
+        <caption>Nuestro Horario</caption>
+        <thead>
+            <tr>
+                <th style="text-align: left">Día</th>
+                <th style="text-align: right">Horas</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td style="text-align: left">Lunes</td>
+            <td style="text-align: right">10:00 AM A 8:30 PM</td>
+            
+            </tr>
+            <tr>
+                <td style="text-align: left">Martes</td>
+                <td style="text-align: right">10:00 AM A 8:30 PM</td>
+
+            </tr>
+            <tr>
+                <td style="text-align: left">Miércoles</td>
+               <td style="text-align: right">10:00 AM A 8:30 PM</td>
+            </tr>
+            <tr>
+                <td style="text-align: left">Jueves</td>
+                <td style="text-align: right">10:00 AM A 8:30 PM</td>
+            </tr>
+            <tr>
+                <td style="text-align: left">Viernes</td>
+                <td style="text-align: right">10:00 AM A 9:30 PM</td>
+            </tr>
+            <tr>
+                <td style="text-align: left">Sábado</td>
+                <td style="text-align: right">10:00 AM A 9:30 PM</td>
+            </tr>
+            <tr>
+                <td style="text-align: left">Domingo</td>
+                <td style="text-align: right">10:00 AM A 8:30 PM</td>
+               
+            </tr>
+        </tbody>
+    </table>
+   </div>
+    </div>
+    <hr>
+   </section>
+
+   <div class="info-box"><b>¿INTERESADO EN NUESTRAS OPCIONES?</b></div>
+   <section>
+
+   </section>
+
+   <section class="types">
+    <div class="appetizers">
+        <a href="20css.html"> <p style="text-align: center">Haga clic para ver nuestros aperitivos</p></a>
+       
+    </div>
+    <div class="housespecials">
+        <a href="15css.html"><p style="text-align: center">Haga clic para ver nuestras ofertas especiales</p></a>
+        
+    </div>
+    <div class="ranchero">
+        <a href="14.css.html"> <p style="text-align: center">Haga clic para ver nuestros platos principales</p></a>
+       
+    </div>
+    <div class="sides">
+        <a href="13css.html"> <p style="text-align: center">Haga clic para ver acompañantes a la Carta</p></a>
+       
+    </div>
+    <div class="drinks">
+        <a href="12css.html"><p style="text-align: center">Haga clic para ver nuestras bebidas</p></a>
+        
+    </div>
+    <div class="kidsmenu">
+        <a href="19css.html"><p style="text-align: center">Haga clic para ver nuestro menú infantil</p></a>
+    </div>
+   </section>
+
+   <div class="info-box"><b>¿ESPERAMOS VERTE PRONTO?</b></div>
+
+
+</body>
+</html>
